@@ -1,0 +1,8 @@
+//Opens dialog window container - UI Page
+function newGDW(tableName){ 
+	var dialog = new GlideDialogWindow(tableName);
+	dialog.setTitle("Window Title Here");
+	dialog.render();
+}
+
+newGDW('sys_user');
